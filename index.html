@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <style> 
+  .button {
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #AC4142;
+}
+.button:hover {
+  background-color: #AC4142;
+  color: black;
+}
+</style>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Hi Mom
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-08">
+   
+    <div class="sidebar">
+
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h3 style = "color:#d5a08e;">Hallo, I'm Anirudh Maiya.</h3>
+      <p>This is my "online presence".<br>I like to work on machine learning quite often. </p>
+
+
+    </div>
+
+    <nav class="sidebar-nav">
+      
+
+      <p>     &nbsp; </p>
+            <p>     &nbsp; </p>
+
+      <p>     &nbsp; </p>
+
+    </nav>
+     <p>email me at - <span style="font-weight:bold;color:black;">maiyaanirudh@gmail.com</span></p> 
+     <p style = "font-size: 15px"><a href = 'https://www.linkedin.com/in/anirudh-maiya-691479155/'>[Linkedin] </a><a href = 'https://github.com/AnirudhMaiya'>[Github]</a><p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="posts">
+ 
+ <h3 id="built-on-poole">Work Experience</h3>
+ <ul>
+  <li style = "font-weight: 600">Indian Space Research Organisation, Marthahalli, Bengaluru<br> Project Intern</li>
+  <p> Worked on detecting coconut farms obtained from Cartosat-2. Designed and created an end-to-end model to simplify the process. 
+
+</ul>
+
+<h3 id="built-on-poole">Projects</h3>
+<ol>
+  <li><b>messup: a new regularization method</b></li>
+  <p>A new regularization technique by encountering samples through exponential smoothing inspired by mixup regularization. In this project, I introduce an augmentation/regularization technique that introduces linear behavior between training samples (like mixup) but I employ exponential moving average onto training samples and labels as training progresses. Hence this reduces generalization error by 1.6 % when compared to ERM. Kindly refer the link below for more details.<br> 
+  <button class="button" onclick="location.href='https://github.com/AnirudhMaiya/Mesup' " type = "button">
+         See Project</button></p>
+
+         <li><b>Rethinking SWATS (Switching from Adam to SGD) Optimizer</b></li>
+  <p>Elementwise scaling of learning rate adopted by Adaptive Optimizers such as Adam, RMSProp, etc often generalise poorly due to unstable and non-uniform learning rates at the end of the training, although they scale well during the initial part of the training. Hence SGD is the go-to for SOTA results since it generalizes better than adaptive methods.<br>
+SWATS is a method which switches from Adam to SGD when the difference between the bias corrected projected learning rate and the projected learning rate is less than a threshold ϵ. The projected learning rate is found by projecting the SGD's update onto Adam's update. The switch is global i.e. if one of the layers of the network switches to SGD, all the layers are switched to SGD.<br>
+Switching all the layers to SGD just because a particular layer switched to SGD is something that has to be investigated. Why should a Dense or Batch Norm Layer impact Convolutional layer's training? So I went ahead and made the switch local i.e a layer's switch to SGD is independent of other layer switching to SGD i.e. at a given time some layers will be in SGD Phase while the rest of them are still using Adam. Kindly refer the link below for more details.<br> 
+<button class="button" onclick="location.href='https://github.com/AnirudhMaiya/Rethinking-SWATS-Optimizer' " type = "button">
+See Project</button></p>
+
+  <li><b>Emperical Risk Minimisation, Adversarial Risk Minimisation, Mixup</b></li>
+  <p>Given a highly imbalanced dataset, I wanted to investigate how adversarial training might help in increasing performance. Additionally, I also compare it with mixup augmentation. Untargeted white-box attack -- PGD is used to maximize focal loss for adversarial training. Mixup with focal loss is also considered. Kindly refer the link below for more details.<br> 
+  <button class="button" onclick="location.href='https://github.com/AnirudhMaiya/ERMvsARMvsMixup' " type = "button">
+  See Project</button></p>
+  <li><b>Why Group Normalization works?</b></li>
+  <p>Rudimentary check to verify Group Norm by picking channels that are not adjacent to each other which then from a group. Kindly refer the link below for more details. <br> 
+  <button class="button" onclick="location.href='https://github.com/AnirudhMaiya/pytorch-Group-Normalization' " type = "button">
+  See Project</button></p>  
+  </ol>
+<ul>
+
+    </div>
+
+  </body>
+</html>
