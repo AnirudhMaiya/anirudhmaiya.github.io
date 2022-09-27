@@ -1,0 +1,23 @@
+email:
+  id: 'maiyaanirudh@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa fa-envelope'
+
+linkedin:
+  id: 'anirudh-maiya-691479155'
+  href: 'https://www.linkedin.com/in/'
+  title: 'Linkedin'
+  fa-icon: 'fab fa-linkedin'
+
+github:
+  id: 'AnirudhMaiya'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fab fa-github'
+
+google-scholar:
+  id: 'citations?user=ZYWhPQ8AAAAJ&hl=en'
+  href: 'https://scholar.google.com/'
+  title: Google Scholar
+  fa-icon: 'ai ai-google-scholar-square'

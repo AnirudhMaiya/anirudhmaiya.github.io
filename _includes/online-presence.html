@@ -1,0 +1,11 @@
+{% if site.data.social %}
+<div id="online-icons">
+    {% assign sm = site.data.social %}
+    {% for entry in sm %}
+        {% assign key = entry | first %}
+        {% if sm[key].id %}
+            <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" target="_blank"><i class="{{ sm[key].fa-icon }}"></i></a>
+        {% endif %}
+    {% endfor %}
+</div>
+{% endif %}
