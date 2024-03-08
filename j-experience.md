@@ -6,6 +6,16 @@ permalink: /experience/
 
 <div id="experience">
 	<p>
+	<h3><strong>Cooperative Institute for Research in Environmental Sciences - Earth Lab</strong></h3>
+	<strong>Graduate Research Assistant</strong>
+	<br/>
+	<em><sub>January 2024 - Present</sub></em>
+	<ul>
+	<li> Quantifying Aboveground Biomass Density (AGBD) for both pre/post-forest fires across the North Central region</li>
+	</ul>
+	</p>
+	<p>
+	<p>
 	<h3><strong>Commvault</strong></h3>
 	<strong>Software Engineer</strong>
 	<br/>
